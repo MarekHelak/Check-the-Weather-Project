@@ -14,6 +14,9 @@
 		EA7BA6491AF170DC0017F9C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA6481AF170DC0017F9C4 /* Images.xcassets */; };
 		EA7BA64C1AF170DC0017F9C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7BA64A1AF170DC0017F9C4 /* LaunchScreen.xib */; };
 		EA7BA6581AF170DC0017F9C4 /* Check_the_Weather_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6571AF170DC0017F9C4 /* Check_the_Weather_ProjectTests.m */; };
+		EA7BA6631AF172BE0017F9C4 /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6621AF172BE0017F9C4 /* YQL.m */; };
+		EABB16D11AF64DC600A9FB0A /* FiveDaysTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EABB16D01AF64DC600A9FB0A /* FiveDaysTable.m */; };
+		EABFF7CB1AF62CA2001A180A /* Yes_we_love_sunsets.png in Resources */ = {isa = PBXBuildFile; fileRef = EABFF7CA1AF62CA2001A180A /* Yes_we_love_sunsets.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		EA7BA6511AF170DC0017F9C4 /* Check the Weather ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check the Weather ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BA6561AF170DC0017F9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7BA6571AF170DC0017F9C4 /* Check_the_Weather_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Check_the_Weather_ProjectTests.m; sourceTree = "<group>"; };
+		EA7BA6611AF172BE0017F9C4 /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		EA7BA6621AF172BE0017F9C4 /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
+		EABB16CF1AF64DC600A9FB0A /* FiveDaysTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveDaysTable.h; sourceTree = "<group>"; };
+		EABB16D01AF64DC600A9FB0A /* FiveDaysTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveDaysTable.m; sourceTree = "<group>"; };
+		EABFF7CA1AF62CA2001A180A /* Yes_we_love_sunsets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yes_we_love_sunsets.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +93,14 @@
 				EA7BA6401AF170DC0017F9C4 /* AppDelegate.m */,
 				EA7BA6421AF170DC0017F9C4 /* ViewController.h */,
 				EA7BA6431AF170DC0017F9C4 /* ViewController.m */,
+				EA7BA6611AF172BE0017F9C4 /* YQL.h */,
+				EA7BA6621AF172BE0017F9C4 /* YQL.m */,
 				EA7BA6451AF170DC0017F9C4 /* Main.storyboard */,
 				EA7BA6481AF170DC0017F9C4 /* Images.xcassets */,
 				EA7BA64A1AF170DC0017F9C4 /* LaunchScreen.xib */,
 				EA7BA63B1AF170DC0017F9C4 /* Supporting Files */,
+				EABB16CF1AF64DC600A9FB0A /* FiveDaysTable.h */,
+				EABB16D01AF64DC600A9FB0A /* FiveDaysTable.m */,
 			);
 			path = "Check the Weather Project";
 			sourceTree = "<group>";
@@ -96,6 +108,7 @@
 		EA7BA63B1AF170DC0017F9C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EABFF7CA1AF62CA2001A180A /* Yes_we_love_sunsets.png */,
 				EA7BA63C1AF170DC0017F9C4 /* Info.plist */,
 				EA7BA63D1AF170DC0017F9C4 /* main.m */,
 			);
@@ -202,6 +215,7 @@
 				EA7BA6471AF170DC0017F9C4 /* Main.storyboard in Resources */,
 				EA7BA64C1AF170DC0017F9C4 /* LaunchScreen.xib in Resources */,
 				EA7BA6491AF170DC0017F9C4 /* Images.xcassets in Resources */,
+				EABFF7CB1AF62CA2001A180A /* Yes_we_love_sunsets.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABB16D11AF64DC600A9FB0A /* FiveDaysTable.m in Sources */,
 				EA7BA6441AF170DC0017F9C4 /* ViewController.m in Sources */,
 				EA7BA6411AF170DC0017F9C4 /* AppDelegate.m in Sources */,
+				EA7BA6631AF172BE0017F9C4 /* YQL.m in Sources */,
 				EA7BA63E1AF170DC0017F9C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +434,7 @@
 				EA7BA65D1AF170DC0017F9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA7BA65E1AF170DC0017F9C4 /* Build configuration list for PBXNativeTarget "Check the Weather ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				EA7BA6601AF170DC0017F9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
